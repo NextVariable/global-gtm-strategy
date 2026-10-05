@@ -13,7 +13,7 @@ from decimal import Decimal, localcontext
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SKILL = ROOT / "skills/global-gtm-strategy"
+SKILL = ROOT / "skills/global-gtm-strategy-skill"
 SCRIPTS = Path(sys.argv[1]) if len(sys.argv) > 1 else SKILL / "scripts"
 OUTPUT = (
     Path(sys.argv[2])

@@ -14,7 +14,7 @@ from decimal import Decimal, localcontext
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SCRIPTS = ROOT / "skills/global-gtm-strategy/scripts"
+SCRIPTS = ROOT / "skills/global-gtm-strategy-skill/scripts"
 TODAY = dt.date(2026, 10, 5)
 
 

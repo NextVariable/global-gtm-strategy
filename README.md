@@ -1,6 +1,6 @@
 # Global GTM Strategy · 海外市场研究与 GTM 战略
 
-[![Validation / 自动验证](https://github.com/NextVariable/global-gtm-strategy/actions/workflows/validate.yml/badge.svg)](https://github.com/NextVariable/global-gtm-strategy/actions/workflows/validate.yml) · [MIT](LICENSE) · [中文](#中文) · [English](#english)
+[![Validation / 自动验证](https://github.com/NextVariable/global-gtm-strategy-skill/actions/workflows/validate.yml/badge.svg)](https://github.com/NextVariable/global-gtm-strategy-skill/actions/workflows/validate.yml) · [MIT](LICENSE) · [中文](#中文) · [English](#english)
 
 ## 中文
 
@@ -10,25 +10,25 @@
 
 ### 安装与使用
 
-将完整的 [Skill 目录](skills/global-gtm-strategy/)复制到支持 Agent Skills 的客户端。Codex 示例：
+将完整的 [Skill 目录](skills/global-gtm-strategy-skill/)复制到支持 Agent Skills 的客户端。Codex 示例：
 
 ```bash
-git clone https://github.com/NextVariable/global-gtm-strategy.git
-cd global-gtm-strategy
+git clone https://github.com/NextVariable/global-gtm-strategy-skill.git
+cd global-gtm-strategy-skill
 mkdir -p ~/.agents/skills
-cp -R skills/global-gtm-strategy ~/.agents/skills/
+cp -R skills/global-gtm-strategy-skill ~/.agents/skills/
 ```
 
-重新加载客户端后调用 `$global-gtm-strategy`。已有同名技能时先核对版本。技能使用客户端已有的搜索、浏览和文件工具；辅助脚本需要 Python 3.10+，仅使用标准库，无需额外服务或密钥。
+重新加载客户端后调用 `$global-gtm-strategy-skill`。已有同名技能时先核对版本。技能使用客户端已有的搜索、浏览和文件工具；辅助脚本需要 Python 3.10+，仅使用标准库，无需额外服务或密钥。
 
 ```text
-使用 $global-gtm-strategy。我们做团队会议工具，目前只有云版，
+使用 $global-gtm-strategy-skill。我们做团队会议工具，目前只有云版，
 有三个已付款试点，团队能用英语支持，每月只有 40 小时服务产能。
 根据我提供的访谈、成本和购买记录，判断先服务哪类客户，
 并设计一项最可能改变这个选择的验证。
 ```
 
-提供有权使用的产品资料、当前决定和资源约束即可。持续研究的业务资料保存在技能目录之外，按客户、产品和项目区分，见[证据与恢复](skills/global-gtm-strategy/references/evidence-and-state.md)。
+提供有权使用的产品资料、当前决定和资源约束即可。持续研究的业务资料保存在技能目录之外，按客户、产品和项目区分，见[证据与恢复](skills/global-gtm-strategy-skill/references/evidence-and-state.md)。
 
 ### 验证与许可证
 
@@ -44,26 +44,26 @@ The research identifies target markets and customers, value propositions, compet
 
 ### Installation and usage
 
-Copy the entire [skill directory](skills/global-gtm-strategy/) into a client supporting Agent Skills. For Codex:
+Copy the entire [skill directory](skills/global-gtm-strategy-skill/) into a client supporting Agent Skills. For Codex:
 
 ```bash
-git clone https://github.com/NextVariable/global-gtm-strategy.git
-cd global-gtm-strategy
+git clone https://github.com/NextVariable/global-gtm-strategy-skill.git
+cd global-gtm-strategy-skill
 mkdir -p ~/.agents/skills
-cp -R skills/global-gtm-strategy ~/.agents/skills/
+cp -R skills/global-gtm-strategy-skill ~/.agents/skills/
 ```
 
-Reload the client and invoke `$global-gtm-strategy`. Check the version before replacing an existing installation. The skill uses the client’s search, browsing, and file tools. Helper scripts require Python 3.10+ and only the standard library; no additional services or credentials are needed.
+Reload the client and invoke `$global-gtm-strategy-skill`. Check the version before replacing an existing installation. The skill uses the client’s search, browsing, and file tools. Helper scripts require Python 3.10+ and only the standard library; no additional services or credentials are needed.
 
 ```text
-Use $global-gtm-strategy. We build a team meeting tool, currently cloud-only.
+Use $global-gtm-strategy-skill. We build a team meeting tool, currently cloud-only.
 We have three paid pilots, can provide support in English, and have only
 40 hours of service capacity per month. Based on the interviews, costs,
 and purchase records I provide, identify the customer segment to serve
 first and design a test most likely to change that choice.
 ```
 
-Provide product materials you are authorized to use, the decision at hand, and resource constraints. For ongoing research, store business data outside the skill directory and separate it by client, product, and project; see [evidence and resumption](skills/global-gtm-strategy/references/evidence-and-state.md).
+Provide product materials you are authorized to use, the decision at hand, and resource constraints. For ongoing research, store business data outside the skill directory and separate it by client, product, and project; see [evidence and resumption](skills/global-gtm-strategy-skill/references/evidence-and-state.md).
 
 ### Validation and license
 

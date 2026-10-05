@@ -38,7 +38,7 @@ def run(scripts, output):
         )
 
     template = json.loads(
-        (ROOT / "skills/global-gtm-strategy/templates/sizing-input.json").read_text()
+        (ROOT / "skills/global-gtm-strategy-skill/templates/sizing-input.json").read_text()
     )
     rng = random.Random(1031)
     for i in range(120):

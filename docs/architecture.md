@@ -1,8 +1,8 @@
 # 架构与维护 · Architecture and maintenance
 
-可安装单元为 `skills/global-gtm-strategy/`。`SKILL.md` 是入口，`references/` 按决策需要加载市场选择、客户研究、替代方案、商业机会和进入策略；`templates/` 提供输入与交接约定，`agents/` 提供客户端元数据。业务资料应保存在安装目录之外。
+可安装单元为 `skills/global-gtm-strategy-skill/`。`SKILL.md` 是入口，`references/` 按决策需要加载市场选择、客户研究、替代方案、商业机会和进入策略；`templates/` 提供输入与交接约定，`agents/` 提供客户端元数据。业务资料应保存在安装目录之外。
 
-The installable unit is `skills/global-gtm-strategy/`. `SKILL.md` is the entry point; references cover market selection, customer research, alternatives, commercial opportunity, and entry strategy, loaded as needed. Templates define inputs and handoffs; agents provide client metadata. Store business data outside the installed skill.
+The installable unit is `skills/global-gtm-strategy-skill/`. `SKILL.md` is the entry point; references cover market selection, customer research, alternatives, commercial opportunity, and entry strategy, loaded as needed. Templates define inputs and handoffs; agents provide client metadata. Store business data outside the installed skill.
 
 业务脚本只处理账本初始化、只读校验和区间计算，不联网、不执行获客动作。账本校验不判断来源是否真实或建议是否有效；数值结果是情景区间，单位、相关性与现实可行性仍需核对。
 

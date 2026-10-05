@@ -9,7 +9,7 @@ import tempfile
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
-SKILL = ROOT / "skills/global-gtm-strategy"
+SKILL = ROOT / "skills/global-gtm-strategy-skill"
 
 
 def module(name):

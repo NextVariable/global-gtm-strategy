@@ -1,5 +1,5 @@
 ---
-name: global-gtm-strategy
+name: global-gtm-strategy-skill
 license: MIT
 description: 帮助产品出海：研究目标市场、客户需求、竞品与替代方案，评估商业机会，制定市场进入与早期增长策略。用于选择海外市场与首批客户，或分析已有海外业务的增长瓶颈；输出客户定位、价值主张、渠道与购买路径及下一步验证，不负责文案制作、渠道发布、销售执行或实验复盘。
 ---
