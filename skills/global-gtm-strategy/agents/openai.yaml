@@ -1,0 +1,4 @@
+interface:
+  display_name: "海外市场研究与 GTM 战略 / Global GTM Strategy"
+  short_description: "研究海外市场、客户与竞品，制定产品出海与早期增长策略"
+  default_prompt: "使用 $global-gtm-strategy 研究产品的海外目标市场、客户与竞品，制定市场进入与早期增长策略，明确优先客户、价值主张、渠道与购买路径及下一步验证。"

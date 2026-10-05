@@ -1,0 +1,115 @@
+{
+  "notice": "Synthetic schema examples, not a product result. Copy each row to its corresponding ledger and replace identity.",
+  "evidence": {
+    "id": "E1",
+    "identity": {
+      "client": "example-client",
+      "product": "example-product",
+      "project": "example-project"
+    },
+    "source": "https://example.org/product/docs",
+    "acquired_at": "2026-10-04",
+    "material_date": null,
+    "material_date_unknown_reason": "document has no publication date",
+    "region": "unspecified",
+    "source_kind": "product-documentation",
+    "origin_group": "publisher-doc-v1",
+    "locator": "Support section",
+    "excerpt": "Example short excerpt only",
+    "limits": [
+      "Example; no live source checked"
+    ],
+    "status": "unverified"
+  },
+  "observation": {
+    "id": "C1",
+    "identity": {
+      "client": "example-client",
+      "product": "example-product",
+      "project": "example-project"
+    },
+    "category": "observation",
+    "text": "The supplied example document states a support restriction.",
+    "sources": [
+      "E1"
+    ],
+    "premises": []
+  },
+  "hypothesis": {
+    "id": "C2",
+    "identity": {
+      "client": "example-client",
+      "product": "example-product",
+      "project": "example-project"
+    },
+    "category": "hypothesis",
+    "text": "The restriction may matter to the target buyer.",
+    "sources": [],
+    "premises": [],
+    "validation": "Observe the buyer evaluating support against their procurement requirements."
+  },
+  "recommendation": {
+    "id": "C3",
+    "identity": {
+      "client": "example-client",
+      "product": "example-product",
+      "project": "example-project"
+    },
+    "category": "recommendation",
+    "text": "Conditionally examine a segment without that support requirement.",
+    "sources": [],
+    "premises": [
+      "C1",
+      "C2"
+    ],
+    "reasoning": "Support fit is a provisional gating condition, not observed demand.",
+    "withdraw_if": [
+      "Buyer requires the restricted support."
+    ]
+  },
+  "decision": {
+    "id": "D1",
+    "identity": {
+      "client": "example-client",
+      "product": "example-product",
+      "project": "example-project"
+    },
+    "status": "provisional",
+    "claims": [
+      "C3"
+    ],
+    "counter_evidence": [],
+    "counter_search": "Example only: independent counter research not yet performed.",
+    "unknowns": [
+      "Buyer support requirement"
+    ],
+    "withdraw_if": [
+      "Requirement is mandatory"
+    ],
+    "next_validation": {
+      "object": "Buyer with a recent relevant task",
+      "action": "Observe evaluation of actual requirements",
+      "observable": "Documented support requirement and workaround",
+      "criterion": "Can deliver without prohibited support; exploratory design, not an industry benchmark",
+      "resource_limit": "One authorized research session before further investment",
+      "branches": "Mandatory: defer; optional: examine alternatives and purchase path"
+    },
+    "supersedes": null
+  },
+  "inference": {
+    "id": "C4",
+    "identity": {
+      "client": "example-client",
+      "product": "example-product",
+      "project": "example-project"
+    },
+    "category": "inference",
+    "text": "The documented support restriction may exclude buyers who require it.",
+    "sources": [],
+    "premises": [
+      "C1",
+      "C2"
+    ],
+    "reasoning": "Conditional on an unverified buyer requirement; not observed purchasing demand."
+  }
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+growth-workspaces/
+.DS_Store
+.validation-output/
+.ruff_cache/
+.env
+.env.*
+!.env.example
+dist/
+.private-backups/

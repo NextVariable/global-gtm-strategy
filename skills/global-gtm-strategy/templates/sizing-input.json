@@ -1,0 +1,27 @@
+{
+  "scope": "SYNTHETIC illustration: reachable qualified accounts in one authorized pilot, not TAM",
+  "period": "12 months hypothetical",
+  "output_unit": "USD/year",
+  "formula": "accounts × subscription USD/account/year",
+  "assumptions": [
+    "Synthetic factors only; excludes device and setup revenue; no market share forecast"
+  ],
+  "factors": [
+    {
+      "name": "reachable-accounts",
+      "unit": "accounts",
+      "low": 10,
+      "base": 15,
+      "high": 20,
+      "hypothesis_id": "H-reach"
+    },
+    {
+      "name": "annual-spend",
+      "unit": "USD/account/year",
+      "low": 100,
+      "base": 150,
+      "high": 200,
+      "hypothesis_id": "H-spend"
+    }
+  ]
+}
